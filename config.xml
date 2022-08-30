@@ -1,5 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="mokkeee.message.push" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="mokkeee.message.push" version="1.0.0"
+    xmlns="http://www.w3.org/ns/widgets"
+    xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>PushMessage</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -18,10 +20,12 @@
         <preference name="android-targetSdkVersion" value="32" />
         <preference name="AndroidWindowSplashScreenAnimatedIcon" value="www/img/message.png" />
         <preference name="AndroidWindowSplashScreenBackground" value="#7F7F7F" />
+        <preference name="AndroidWindowSplashScreenIconBackgroundColor" value="#2F7F2F" />
+        <preference name="SplashScreenDelay" value="8000" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-	<plugin name="cordova-plugin-firebasex" spec="14.2.1" />
+    <plugin name="cordova-plugin-firebasex" spec="14.2.1" />
 </widget>

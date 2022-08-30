@@ -20,7 +20,10 @@
   "cordova": {
     "plugins": {
       "cordova-plugin-firebasex": {}
-    }
+    },
+    "platforms": [
+      "android"
+    ]
   },
   "dependencies": {}
 }

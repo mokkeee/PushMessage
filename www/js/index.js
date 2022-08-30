@@ -31,8 +31,10 @@ function onDeviceReady() {
         token => console.log('token:' + token),
         error => console.error(error));
 
-    window.FirebasePlugin.onMessageRecieved(message => {
-        console.log('recieved:' + JSON.stringify(message));
+    /*
+    window.FirebasePlugin.onMessageReceived(message => {
+        console.log('received:' + JSON.stringify(message));
         console.dir(message);
     }, error => console.error(error));
+    */
 }

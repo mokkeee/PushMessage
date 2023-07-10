@@ -19,8 +19,10 @@
         <allow-intent href="market:*" />
         <preference name="android-targetSdkVersion" value="32" />
         <preference name="AndroidWindowSplashScreenAnimatedIcon" value="www/img/message.png" />
-        <preference name="AndroidWindowSplashScreenBackground" value="#7F7F7F" />
-        <preference name="AndroidWindowSplashScreenIconBackgroundColor" value="#2F7F2F" />
+        <preference name="AndroidWindowSplashScreenBackground" value="#8F7F6F" />
+        <!--
+        <preference name="AndroidWindowSplashScreenIconBackgroundColor" value="#2F5F1F" />
+-->
         <preference name="SplashScreenDelay" value="8000" />
     </platform>
     <platform name="ios">
